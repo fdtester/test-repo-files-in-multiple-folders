@@ -32,6 +32,31 @@
                 }
              ]
           }
+       },
+       {
+         "name": "countries",
+         "type": "table",
+         "path": "countries.csv",
+         "schema": {
+           "fields": [
+             {
+               "name": "id",
+               "type": "integer"
+             },
+             {
+               "name": "neighbor_id",
+               "type": "string"
+             },
+             {
+               "name": "name",
+               "type": "string"
+             },
+             {
+               "name": "population",
+               "type": "string"
+             }
+           ]
+         }
        }
     ]
  }
